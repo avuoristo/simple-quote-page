@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    padding-top: 4.5rem;
+    padding-top: 2rem;
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -23,13 +23,77 @@ body {
 h1 {
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 1.2rem;
 }
 
 p {
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-weight: 400;
     font-style: italic;
     font-family: 'Crimson Pro', serif;
-    font-size: 1.35rem;
+    font-size: 0.8rem;
 }
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    p {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 360px) and (min-height: 640) {
+    h1 {
+        font-size: 0.5rem;
+    }
+    p {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 375px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        margin-top: 1.2rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 540px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        margin-top: 1.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        margin-top: 2rem;
+        font-size: 1.35rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding-top: 9rem;
+    }
+}
+
+
